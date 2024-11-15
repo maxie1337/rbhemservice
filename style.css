@@ -22,7 +22,7 @@ body {
 
   
 .navbar-brand img {
-    height: 4.2rem;
+    height: 4.8rem;
     padding-left: 20px;
 }
 
@@ -263,4 +263,21 @@ hr.socket {
         margin-left: -6px !important;
         margin-bottom: -10px !important;
     }
+    .navbar-brand img {
+        height: 4.5rem;
+        margin-left: -10px !important;
+    }
+    .infoh1 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .h4rubrik {
+     text-align: center;
+    }
+    
+    .lufferknapp {
+        margin-left: 170px !important;
+    }
+
 }

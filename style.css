@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif; 
+    color: #505962 !important;
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 4rem;
+}
+/*--- navigation ---*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+  
+.navbar-brand img {
+    height: 4.2rem;
+    padding-left: 20px;
+}
+
+.navbar-toggler{
+    margin-right: 20px;
+}
+
+.navbar-nav li {
+    padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3 !important;
+}
+
+.btn-secondary.btn-small {
+    font-size: 0.9rem !important; /* Mindre textstorlek */
+    padding: 0.4rem 0.8rem !important; /* Mindre padding */
+    margin: 0.3rem !important; /* Mindre marginal */
+    border-width: small; /* Behåll standardgräns */
+    border-radius: 0 !important; /* Ingen rundning */
+    color: #fff !important; /* Vit text */
+    background-color: #1ebba3 !important; /* Grön bakgrund */
+    border-color: #1ebba3 !important; /* Grön kant */
+    border-radius: 5px !important;
+}
+.btn-secondary.btn-small:hover {
+    background-color: #189582 !important; /* Ändrad färg vid hover */
+    border-color: #189582 !important;
+}
+
+/*--- Landing Page ---*/
+
+.home-inner {
+    background-image: url('cleaning.jpg');
+    background-size: cover; /* Gör att bilden täcker hela elementet utan att förvrängas */
+    background-position: center; /* Centrerar bilden */
+    background-repeat: no-repeat; /* Förhindrar att bilden upprepas */
+    width: 100vw; /* Tar hela skärmbredden */
+    height: 100vh; /* Tar hela skärmhöjden */
+}
+
+.caption {
+    width: 100%;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 1rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem 1rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium !important;
+    border-radius: 0 !important;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 500 !important;
+}
+
+/*-- Course section styling --*/
+
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto !important;
+    padding-top: 2rem;
+}
+
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    font-size: 1.2rem !important;
+    padding: 0.6rem 1.2rem !important;
+    margin: 1rem !important;
+    color: #fff;
+    background-color: #1ebba3 !important;
+    border-color: #1ebba3 !important;
+}
+.btn-secondary:hover {
+    background-color: #189582 !important;
+    border-color: #189582 ;
+}
+
+/* Starten på beskrivning css */
+
+.infoh1 {
+    margin-bottom: 20px !important;
+    margin-top: -10px;
+    margin-left: -2px;
+    
+  }
+  /* Applicera border-bottom på varje p-element */
+
+  .border-line p {
+    border-bottom: 0.5px solid #0000004f; /* Mycket tunn linje */
+    padding-bottom: 10px;  /* Lite utrymme under texten */
+    margin-bottom: 40px !important; /* Avstånd mellan p och nästa element */
+  }
+
+
+/* feature section css */
+
+.card {
+    background-color: #FAF9F6 !important;
+    border: none !important;
+    text-align: center;
+    padding: 20px;
+    height: 100% !important; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card img {
+    max-width: 100px;
+    margin: 15px auto;
+  }
+  .large-image {
+    max-width: 160px !important;
+  }
+  .h1-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+.heading-underline {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+/* kontakta oss css */
+
+.dark {
+    background-color: #faf9f6a4;
+    color: #505962;
+    padding: 7rem 2rem;
+}
+
+.fixed-background h3 {
+    margin-bottom: 2rem;
+}
+
+.fixed-background p {
+    margin-top: 1.5rem;
+}
+
+/* footer css */
+
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: -4rem;
+}
+
+footer img {
+    height: 5.5rem;
+    margin-bottom: 10px;
+    margin-right: -300px;
+}
+
+footer a {
+    color:white;
+}
+
+footer i {
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0 !important;
+}
+
+footer i:hover {
+    color:#1ebba3 !important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+
+
+
+/* media querys */
+
+@media (max-width: 767px) {
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+    
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .narrow h1 {
+        font-size: 1.8rem;
+    }
+    .btn-secondary.btn-small {
+        margin-top: 10px !important;
+        margin-left: -6px !important;
+        margin-bottom: -10px !important;
+    }
+}
